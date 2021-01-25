@@ -1,0 +1,20 @@
+#animexyz-naruto {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  animation: naruto 0.5s forwards linear;
+}
+
+#animexyz-naruto img {
+  position: relative;
+  height: 50px;
+}
+
+@keyframes naruto {
+  from {
+    left: 0%;
+  }
+  to {
+    left: 100%;
+  }
+}
