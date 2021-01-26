@@ -1,7 +1,7 @@
 #animexyz-naruto {
   position: absolute;
   bottom: 0px;
-  left: 0px;
+  left: -50px;
   animation: naruto 0.5s forwards linear;
 }
 
@@ -11,9 +11,6 @@
 }
 
 @keyframes naruto {
-  from {
-    left: 0%;
-  }
   to {
     left: 100%;
   }
