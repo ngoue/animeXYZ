@@ -25,9 +25,11 @@ module.exports = function (options) {
   // add elements to the DOM
   container.appendChild(img)
   document.body.appendChild(container)
+  document.body.style.overflowX = 'hidden'
 
   // remove after animating
   setTimeout(() => {
     container.remove()
+    document.body.style.overflowX = null;
   }, duration)
 }
